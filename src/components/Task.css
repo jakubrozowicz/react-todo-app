@@ -1,0 +1,20 @@
+.task {
+  font-style: italic;
+}
+
+.taskBtn {
+  margin-left: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  border: none;
+}
+
+.taskBtnCheck {
+  background-color: #4caf50;
+}
+
+.taskBtnDelete {
+  background-color: red;
+}

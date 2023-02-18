@@ -1,0 +1,32 @@
+.container {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label,
+input {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+.btnAddTask {
+  margin-top: 20px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnAddTask:hover {
+  background-color: #3f9142;
+}

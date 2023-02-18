@@ -1,0 +1,11 @@
+.tasksActive,
+.tasksDone {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.emptyTasks {
+  color: red;
+  font-weight: 600;
+}
