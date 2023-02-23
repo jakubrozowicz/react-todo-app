@@ -56,13 +56,15 @@ class AddTask extends Component {
               value={value}
               onChange={this.handleValue}
             />
-            <input
-              type="checkbox"
-              checked={checked}
-              id="important"
-              onChange={this.handleCheckbox}
-            />
-            <label htmlFor="important">Priorytet</label>
+            <div>
+              <input
+                type="checkbox"
+                checked={checked}
+                id="important"
+                onChange={this.handleCheckbox}
+              />
+              <label htmlFor="important">Priorytet</label>
+            </div>
           </div>
           <label htmlFor="date">Do kiedy zrobić</label>
           <input
